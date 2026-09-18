@@ -1,0 +1,166 @@
+[gd_scene load_steps=131 format=3]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/east/frame_000.png" id="east_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/east/frame_001.png" id="east_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/east/frame_002.png" id="east_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/east/frame_003.png" id="east_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/east/frame_004.png" id="east_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/east/frame_005.png" id="east_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/east/frame_006.png" id="east_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/east/frame_007.png" id="east_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-east/frame_000.png" id="south-east_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-east/frame_001.png" id="south-east_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-east/frame_002.png" id="south-east_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-east/frame_003.png" id="south-east_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-east/frame_004.png" id="south-east_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-east/frame_005.png" id="south-east_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-east/frame_006.png" id="south-east_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-east/frame_007.png" id="south-east_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south/frame_000.png" id="south_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south/frame_001.png" id="south_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south/frame_002.png" id="south_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south/frame_003.png" id="south_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south/frame_004.png" id="south_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south/frame_005.png" id="south_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south/frame_006.png" id="south_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south/frame_007.png" id="south_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-west/frame_000.png" id="south-west_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-west/frame_001.png" id="south-west_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-west/frame_002.png" id="south-west_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-west/frame_003.png" id="south-west_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-west/frame_004.png" id="south-west_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-west/frame_005.png" id="south-west_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-west/frame_006.png" id="south-west_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/south-west/frame_007.png" id="south-west_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/west/frame_000.png" id="west_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/west/frame_001.png" id="west_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/west/frame_002.png" id="west_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/west/frame_003.png" id="west_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/west/frame_004.png" id="west_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/west/frame_005.png" id="west_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/west/frame_006.png" id="west_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/west/frame_007.png" id="west_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-west/frame_000.png" id="north-west_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-west/frame_001.png" id="north-west_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-west/frame_002.png" id="north-west_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-west/frame_003.png" id="north-west_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-west/frame_004.png" id="north-west_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-west/frame_005.png" id="north-west_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-west/frame_006.png" id="north-west_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-west/frame_007.png" id="north-west_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north/frame_000.png" id="north_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north/frame_001.png" id="north_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north/frame_002.png" id="north_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north/frame_003.png" id="north_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north/frame_004.png" id="north_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north/frame_005.png" id="north_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north/frame_006.png" id="north_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north/frame_007.png" id="north_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-east/frame_000.png" id="north-east_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-east/frame_001.png" id="north-east_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-east/frame_002.png" id="north-east_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-east/frame_003.png" id="north-east_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-east/frame_004.png" id="north-east_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-east/frame_005.png" id="north-east_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-east/frame_006.png" id="north-east_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Idle/north-east/frame_007.png" id="north-east_7"]
+
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/east/frame_000.png" id="walk_east_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/east/frame_001.png" id="walk_east_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/east/frame_002.png" id="walk_east_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/east/frame_003.png" id="walk_east_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/east/frame_004.png" id="walk_east_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/east/frame_005.png" id="walk_east_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/east/frame_006.png" id="walk_east_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/east/frame_007.png" id="walk_east_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-east/frame_000.png" id="walk_south-east_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-east/frame_001.png" id="walk_south-east_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-east/frame_002.png" id="walk_south-east_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-east/frame_003.png" id="walk_south-east_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-east/frame_004.png" id="walk_south-east_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-east/frame_005.png" id="walk_south-east_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-east/frame_006.png" id="walk_south-east_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-east/frame_007.png" id="walk_south-east_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south/frame_000.png" id="walk_south_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south/frame_001.png" id="walk_south_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south/frame_002.png" id="walk_south_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south/frame_003.png" id="walk_south_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south/frame_004.png" id="walk_south_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south/frame_005.png" id="walk_south_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south/frame_006.png" id="walk_south_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south/frame_007.png" id="walk_south_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-west/frame_000.png" id="walk_south-west_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-west/frame_001.png" id="walk_south-west_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-west/frame_002.png" id="walk_south-west_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-west/frame_003.png" id="walk_south-west_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-west/frame_004.png" id="walk_south-west_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-west/frame_005.png" id="walk_south-west_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-west/frame_006.png" id="walk_south-west_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/south-west/frame_007.png" id="walk_south-west_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/west/frame_000.png" id="walk_west_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/west/frame_001.png" id="walk_west_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/west/frame_002.png" id="walk_west_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/west/frame_003.png" id="walk_west_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/west/frame_004.png" id="walk_west_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/west/frame_005.png" id="walk_west_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/west/frame_006.png" id="walk_west_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/west/frame_007.png" id="walk_west_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-west/frame_000.png" id="walk_north-west_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-west/frame_001.png" id="walk_north-west_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-west/frame_002.png" id="walk_north-west_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-west/frame_003.png" id="walk_north-west_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-west/frame_004.png" id="walk_north-west_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-west/frame_005.png" id="walk_north-west_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-west/frame_006.png" id="walk_north-west_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-west/frame_007.png" id="walk_north-west_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north/frame_000.png" id="walk_north_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north/frame_001.png" id="walk_north_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north/frame_002.png" id="walk_north_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north/frame_003.png" id="walk_north_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north/frame_004.png" id="walk_north_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north/frame_005.png" id="walk_north_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north/frame_006.png" id="walk_north_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north/frame_007.png" id="walk_north_7"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-east/frame_000.png" id="walk_north-east_0"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-east/frame_001.png" id="walk_north-east_1"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-east/frame_002.png" id="walk_north-east_2"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-east/frame_003.png" id="walk_north-east_3"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-east/frame_004.png" id="walk_north-east_4"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-east/frame_005.png" id="walk_north-east_5"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-east/frame_006.png" id="walk_north-east_6"]
+[ext_resource type="Texture2D" path="res://sprites/player/Idle/animations/Walking/north-east/frame_007.png" id="walk_north-east_7"]
+
+[sub_resource type="SpriteFrames" id="Frames"]
+animations = [
+{ "name": &"walk_east", "speed": 10.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("walk_east_0") }, { "duration": 1.0, "texture": ExtResource("walk_east_1") }, { "duration": 1.0, "texture": ExtResource("walk_east_2") }, { "duration": 1.0, "texture": ExtResource("walk_east_3") }, { "duration": 1.0, "texture": ExtResource("walk_east_4") }, { "duration": 1.0, "texture": ExtResource("walk_east_5") }, { "duration": 1.0, "texture": ExtResource("walk_east_6") }, { "duration": 1.0, "texture": ExtResource("walk_east_7") }] },
+{ "name": &"walk_south-east", "speed": 10.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("walk_south-east_0") }, { "duration": 1.0, "texture": ExtResource("walk_south-east_1") }, { "duration": 1.0, "texture": ExtResource("walk_south-east_2") }, { "duration": 1.0, "texture": ExtResource("walk_south-east_3") }, { "duration": 1.0, "texture": ExtResource("walk_south-east_4") }, { "duration": 1.0, "texture": ExtResource("walk_south-east_5") }, { "duration": 1.0, "texture": ExtResource("walk_south-east_6") }, { "duration": 1.0, "texture": ExtResource("walk_south-east_7") }] },
+{ "name": &"walk_south", "speed": 10.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("walk_south_0") }, { "duration": 1.0, "texture": ExtResource("walk_south_1") }, { "duration": 1.0, "texture": ExtResource("walk_south_2") }, { "duration": 1.0, "texture": ExtResource("walk_south_3") }, { "duration": 1.0, "texture": ExtResource("walk_south_4") }, { "duration": 1.0, "texture": ExtResource("walk_south_5") }, { "duration": 1.0, "texture": ExtResource("walk_south_6") }, { "duration": 1.0, "texture": ExtResource("walk_south_7") }] },
+{ "name": &"walk_south-west", "speed": 10.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("walk_south-west_0") }, { "duration": 1.0, "texture": ExtResource("walk_south-west_1") }, { "duration": 1.0, "texture": ExtResource("walk_south-west_2") }, { "duration": 1.0, "texture": ExtResource("walk_south-west_3") }, { "duration": 1.0, "texture": ExtResource("walk_south-west_4") }, { "duration": 1.0, "texture": ExtResource("walk_south-west_5") }, { "duration": 1.0, "texture": ExtResource("walk_south-west_6") }, { "duration": 1.0, "texture": ExtResource("walk_south-west_7") }] },
+{ "name": &"walk_west", "speed": 10.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("walk_west_0") }, { "duration": 1.0, "texture": ExtResource("walk_west_1") }, { "duration": 1.0, "texture": ExtResource("walk_west_2") }, { "duration": 1.0, "texture": ExtResource("walk_west_3") }, { "duration": 1.0, "texture": ExtResource("walk_west_4") }, { "duration": 1.0, "texture": ExtResource("walk_west_5") }, { "duration": 1.0, "texture": ExtResource("walk_west_6") }, { "duration": 1.0, "texture": ExtResource("walk_west_7") }] },
+{ "name": &"walk_north-west", "speed": 10.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("walk_north-west_0") }, { "duration": 1.0, "texture": ExtResource("walk_north-west_1") }, { "duration": 1.0, "texture": ExtResource("walk_north-west_2") }, { "duration": 1.0, "texture": ExtResource("walk_north-west_3") }, { "duration": 1.0, "texture": ExtResource("walk_north-west_4") }, { "duration": 1.0, "texture": ExtResource("walk_north-west_5") }, { "duration": 1.0, "texture": ExtResource("walk_north-west_6") }, { "duration": 1.0, "texture": ExtResource("walk_north-west_7") }] },
+{ "name": &"walk_north", "speed": 10.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("walk_north_0") }, { "duration": 1.0, "texture": ExtResource("walk_north_1") }, { "duration": 1.0, "texture": ExtResource("walk_north_2") }, { "duration": 1.0, "texture": ExtResource("walk_north_3") }, { "duration": 1.0, "texture": ExtResource("walk_north_4") }, { "duration": 1.0, "texture": ExtResource("walk_north_5") }, { "duration": 1.0, "texture": ExtResource("walk_north_6") }, { "duration": 1.0, "texture": ExtResource("walk_north_7") }] },
+{ "name": &"walk_north-east", "speed": 10.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("walk_north-east_0") }, { "duration": 1.0, "texture": ExtResource("walk_north-east_1") }, { "duration": 1.0, "texture": ExtResource("walk_north-east_2") }, { "duration": 1.0, "texture": ExtResource("walk_north-east_3") }, { "duration": 1.0, "texture": ExtResource("walk_north-east_4") }, { "duration": 1.0, "texture": ExtResource("walk_north-east_5") }, { "duration": 1.0, "texture": ExtResource("walk_north-east_6") }, { "duration": 1.0, "texture": ExtResource("walk_north-east_7") }] },
+{ "name": &"east", "speed": 8.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("east_0") }, { "duration": 1.0, "texture": ExtResource("east_1") }, { "duration": 1.0, "texture": ExtResource("east_2") }, { "duration": 1.0, "texture": ExtResource("east_3") }, { "duration": 1.0, "texture": ExtResource("east_4") }, { "duration": 1.0, "texture": ExtResource("east_5") }, { "duration": 1.0, "texture": ExtResource("east_6") }, { "duration": 1.0, "texture": ExtResource("east_7") }] },
+{ "name": &"south-east", "speed": 8.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("south-east_0") }, { "duration": 1.0, "texture": ExtResource("south-east_1") }, { "duration": 1.0, "texture": ExtResource("south-east_2") }, { "duration": 1.0, "texture": ExtResource("south-east_3") }, { "duration": 1.0, "texture": ExtResource("south-east_4") }, { "duration": 1.0, "texture": ExtResource("south-east_5") }, { "duration": 1.0, "texture": ExtResource("south-east_6") }, { "duration": 1.0, "texture": ExtResource("south-east_7") }] },
+{ "name": &"south", "speed": 8.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("south_0") }, { "duration": 1.0, "texture": ExtResource("south_1") }, { "duration": 1.0, "texture": ExtResource("south_2") }, { "duration": 1.0, "texture": ExtResource("south_3") }, { "duration": 1.0, "texture": ExtResource("south_4") }, { "duration": 1.0, "texture": ExtResource("south_5") }, { "duration": 1.0, "texture": ExtResource("south_6") }, { "duration": 1.0, "texture": ExtResource("south_7") }] },
+{ "name": &"south-west", "speed": 8.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("south-west_0") }, { "duration": 1.0, "texture": ExtResource("south-west_1") }, { "duration": 1.0, "texture": ExtResource("south-west_2") }, { "duration": 1.0, "texture": ExtResource("south-west_3") }, { "duration": 1.0, "texture": ExtResource("south-west_4") }, { "duration": 1.0, "texture": ExtResource("south-west_5") }, { "duration": 1.0, "texture": ExtResource("south-west_6") }, { "duration": 1.0, "texture": ExtResource("south-west_7") }] },
+{ "name": &"west", "speed": 8.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("west_0") }, { "duration": 1.0, "texture": ExtResource("west_1") }, { "duration": 1.0, "texture": ExtResource("west_2") }, { "duration": 1.0, "texture": ExtResource("west_3") }, { "duration": 1.0, "texture": ExtResource("west_4") }, { "duration": 1.0, "texture": ExtResource("west_5") }, { "duration": 1.0, "texture": ExtResource("west_6") }, { "duration": 1.0, "texture": ExtResource("west_7") }] },
+{ "name": &"north-west", "speed": 8.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("north-west_0") }, { "duration": 1.0, "texture": ExtResource("north-west_1") }, { "duration": 1.0, "texture": ExtResource("north-west_2") }, { "duration": 1.0, "texture": ExtResource("north-west_3") }, { "duration": 1.0, "texture": ExtResource("north-west_4") }, { "duration": 1.0, "texture": ExtResource("north-west_5") }, { "duration": 1.0, "texture": ExtResource("north-west_6") }, { "duration": 1.0, "texture": ExtResource("north-west_7") }] },
+{ "name": &"north", "speed": 8.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("north_0") }, { "duration": 1.0, "texture": ExtResource("north_1") }, { "duration": 1.0, "texture": ExtResource("north_2") }, { "duration": 1.0, "texture": ExtResource("north_3") }, { "duration": 1.0, "texture": ExtResource("north_4") }, { "duration": 1.0, "texture": ExtResource("north_5") }, { "duration": 1.0, "texture": ExtResource("north_6") }, { "duration": 1.0, "texture": ExtResource("north_7") }] },
+{ "name": &"north-east", "speed": 8.0, "loop": true, "frames": [{ "duration": 1.0, "texture": ExtResource("north-east_0") }, { "duration": 1.0, "texture": ExtResource("north-east_1") }, { "duration": 1.0, "texture": ExtResource("north-east_2") }, { "duration": 1.0, "texture": ExtResource("north-east_3") }, { "duration": 1.0, "texture": ExtResource("north-east_4") }, { "duration": 1.0, "texture": ExtResource("north-east_5") }, { "duration": 1.0, "texture": ExtResource("north-east_6") }, { "duration": 1.0, "texture": ExtResource("north-east_7") }] },
+]
+
+[node name="Player" type="Node3D"]
+script = ExtResource("1")
+
+[node name="Sprite" type="AnimatedSprite3D" parent="."]
+pixel_size = 0.034
+offset = Vector2(0, 29)
+billboard = 1
+texture_filter = 0
+shaded = false
+alpha_cut = 1
+sprite_frames = SubResource("Frames")
+animation = &"south"
+autoplay = "south"
